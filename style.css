@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(247, 237, 225);
+}
+
+.entire {
+  text-align: center;
+  /* background-color: aqua; */
+  margin-top: 10%;
+}
+
+/* h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.main {
+  background-color: rgb(233, 219, 202);
+  display: inline-block;
+  height: auto;
+  width: 800px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.inputframe {
+  margin: 10px;
+  /* background-color: purple; */
+  width: 780px;
+  height: 50px;
+
+}
+
+input {
+  padding-left: 10px;
+  height: 35px;
+  width: 70%;
+  float: left;
+  margin-right: 10px;
+}
+
+button {
+  height: 35px;
+  width: 80px;
+  border-radius: 50px;
+  position: relative;
+  color: white;
+  background-color: rgb(83, 83, 206);
+  box-shadow: 0 5px 0 rgb(12, 0, 139);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+button:active {
+  background-color: red;
+  box-shadow: none;
+  top: 5px;
+}
+
+.buttons {
+  float: right;
+}
+
+#b1 {
+  margin-right: 20px;
+}
+
+#b2 {
+  margin-right: 10px;
+}
+
+.lista {
+  /* background-color: red; */
+  margin: 10px;
+  /* padding: 20px; */
+  width: 780px;
+  height: auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  border: 2px solid rgba(165, 42, 42, 0.479);
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 5px 0 rgb(68, 37, 1);
+  cursor: pointer;
+  font-weight: 800;
+  font-size: large;
+}
+
+li:hover {
+  background-color: rgb(167, 106, 106);
+  color: white;
+}
+
+/* li:active {
+  background-color: greenyellow;
+  color: black;
+  box-shadow: none;
+  top: 5px;
+} */
+
+.botaodeletar {
+  float: right;
+  width: 30px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  transform: translateY(-10%)
+}
